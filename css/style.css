@@ -3,6 +3,7 @@
     --light-pink: hsl(275, 100%, 97%);
     --grayish-purple: hsl(292, 16%, 49%);
     --dark-purple: hsl(292, 42%, 14%);
+    --dark-violet: hsla(287, 92%, 5%, 0.473);
 }
 
 * {
@@ -124,4 +125,17 @@ hr {
 
 .close {
     display: none;
+}
+
+/* barra espaciadora */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(63, 48, 48);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.767);
 }
