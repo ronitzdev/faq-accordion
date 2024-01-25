@@ -58,6 +58,7 @@ body {
 .hub h1 {
     color: var(--dark-purple);
     font-weight: 700;
+    font-size: 3rem;
 }
 
 .title-container {
@@ -67,8 +68,8 @@ body {
 }
 
 .star {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .faq {
